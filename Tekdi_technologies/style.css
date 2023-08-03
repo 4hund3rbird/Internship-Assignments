@@ -1,0 +1,173 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.base{
+    width: 100%;
+    height: 3000px;
+}
+.section1{
+    height: 100vh;
+    width: 100%;
+}
+#starter_img{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 86.31%;
+    background-image: url("https://www.tekdi.net/static/04954892ebf7f0cdbfb89e0bd062e41a/c26c2/bg-home.jpg");
+    background-size:cover;
+    background-position-y:-183.5px;
+    /* padding: 40px; */
+}
+
+.holder{
+    height: 100%;
+    width: 93.8%;
+    border-bottom: 0.1px solid rgb(188, 188, 188);
+    margin: auto;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    /* width: 8%; */
+   
+    height: 100%;
+    background-image: url("https://www.tekdi.net/static/logo-white-txt-lg-3049e14501ee94579548831474cb2b28.png");
+    background-size: cover;
+    /* border: 1px solid black; */
+}
+
+#head_bar{
+    height: 10.5%;
+    width: 100%;
+    position: fixed;
+    /* background-color: rgba(0, 0, 0, 0.328); */
+    /* border: 1px solid white; */
+}
+
+.nbar{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:space-between;
+    font-family: 'Overpass', sans-serif;
+    padding: 0%;
+}
+
+.nbar button{
+    width: 22%;
+    height: 100%;
+    /* font-size: 1.7em; */
+    /* font-weight:550; */
+    font-size: 14.5px;
+    font-stretch:ultra-expanded;
+    /* font-weight: bolder; */
+    color: white;
+    background-color: transparent;
+    border:none !important;
+    /* padding:0px !important; */
+}
+
+
+
+.nbar button:hover{
+    background-color: #005aba;
+}
+
+.nbar button:nth-last-child(1){
+    width: 27%;
+}
+
+.dropdown .dropdown-menu{
+    border-radius:0% ;
+    font-size: x-small ;
+    height: calc(27.5*3);
+    width: 200px;
+    padding: 0px;
+    border: none;
+}
+
+.dropdown-menu .dropdown-item{
+    padding: 5px 5px 0px ;
+    
+}
+.dropdown-menu .dropdown-item:hover{
+    color: white;
+    background-color: #005aba;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+@media screen and (min-width:400px) {
+    .logo{
+        width: 77px;
+    }
+}
+
+.img-title{
+    width: 100%;
+    height:85.5%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.img-title h1{
+    padding: 0px 50px;
+    font-size: 40px;
+    color: white;
+    font-weight: 200;
+    line-height: 1em;
+    font-family: 'Overpass', sans-serif;
+}
+
+
